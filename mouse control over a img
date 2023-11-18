@@ -1,0 +1,5 @@
+import pyautogui as pag
+
+position= pag.locateOnScreen('im not robot.png',confidence=0.8)
+pag.doubleClick(position)
+            
